@@ -1,0 +1,317 @@
+.header {
+    background-color: #DC052D;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    padding: 2px;
+}
+
+.logo {
+    background: url('https://i.imgur.com/HBGtgKF.png');
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    display: flex;
+    margin: 0px 5px;
+}
+
+p {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+}
+
+.heading h1 {
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+label {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+    border: 1px solid white;
+    margin: 0px auto;
+}
+
+.navigation {
+    background-color: #C60428;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px 0px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+.hero figure img {
+    width: 100%;
+    height: 700px;
+}
+
+.hero figure figcaption {
+    font-size: 25px;
+    color: #002F6C;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.news1 img {
+    width: 100%;
+    height: 350px;
+}
+
+.news2 img {
+    width: 100%;
+    height: 350px;
+}
+
+.news3 img {
+    width: 100%;
+    height: 350px;
+}
+
+.newsletter h2 {
+    font-size: 15px;
+    text-align: center;
+    color: #002F6C;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.member h2, h3 {
+    text-align: center;
+}
+
+.form {
+    width: 70%;
+    margin: 0px auto;
+}
+
+fieldset {
+    border: 1px solid white;
+}
+
+legend {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #000
+}
+
+.salutation {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 10px 0px;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.firstName, .lastName, .nationality, .address, .phone, .email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+input {
+    margin: 0px 10px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 500px;
+    border: 1px solid black;
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.butt {
+    order: 0;
+    line-height: 1.5;
+    padding: 0 20px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 100px;
+    background-color: #C60428;
+}
+
+.team_heading h1 {
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+}
+
+.teams ul {
+    list-style: none;
+    text-align: center;
+}
+
+.teams ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prompt', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 25px 0px;
+}
+
+.teams ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.photo-header h1 {
+    color: black;
+    text-align: center;
+}
+
+.section1 img {
+    width: 1600px;
+    height: 900px;
+    background-size: cover;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.section2 img {
+    width: 100%;
+    height: 450px;
+}
+
+.section3 img {
+    width: 100%;
+    height: 450px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    position: relative;
+}
+
+.end {
+    display: flex;
+    position: relative;
+
+}
+
+.section4 img {
+    width: 100%;
+    height: 350px;
+}
+
+.section5 img {
+    width: 100%;
+    height: 350px;
+}
+
+.section6 img {
+    width: 100%;
+    height: 350px;
+}
+
+.text-block-right {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: transparent;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.text-block-left {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    background-color: transparent;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.text-block-center {
+    position: absolute;
+    bottom: 20px;
+    right: 50%;
+    left: 50%;
+    background-color: transparent;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
